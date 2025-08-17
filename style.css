@@ -4,14 +4,13 @@ body {
     background: #f8f9fa;
 }
 
-.container {
+.main-container {
     max-width: 600px;
     margin: auto;
     background: #fff;
     padding: 32px;
     border-radius: 8px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
-    padding-top: 100px; /* space for fixed navbar */
 }
 
 h1 {
@@ -34,7 +33,7 @@ button:hover {
 .navbar {
     background: #2d3e50;
     color: #fff;
-    position: fixed;
+    width: 100%;
     padding: 12px 16px;
     border-radius: 4px;
     margin-bottom: 32px;
