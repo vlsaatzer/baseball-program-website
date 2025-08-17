@@ -11,6 +11,7 @@ body {
     padding: 32px;
     border-radius: 8px;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    padding-top: 100px; /* space for fixed navbar */
 }
 
 h1 {
@@ -28,4 +29,33 @@ button {
 
 button:hover {
     background: #1a2533;
+}
+
+.navbar {
+    background: #2d3e50;
+    color: #fff;
+    position: fixed;
+    padding: 12px 16px;
+    border-radius: 4px;
+    margin-bottom: 32px;
+}
+
+.navbar ul {
+    list-style: none; /* removes bullet points */
+    padding: 0;
+    display: flex; /* enables horizontal layout */
+    justify-content: space-around;
+}
+
+.navbar li {
+    margin: 0 12px;
+}
+
+.navbar a {
+    color: #fff;
+    text-decoration: none; /* removes underline */
+}
+
+.navbar a:hover {
+    text-decoration: underline; /* adds underline on hover */
 }
